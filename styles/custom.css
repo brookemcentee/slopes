@@ -1,0 +1,298 @@
+@font-face{
+	font-family:"StagSans-Medium";
+	src:url("fonts/Stag Sans-Medium.otf");
+}
+
+html,body{
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+	font-family:"Lato",sans-serif;
+	font-size:16px;
+	line-height:1.333em;
+}
+
+h1{
+	font-family:"StagSans-Medium",sans-serif;
+	font-size:3.157em;
+}
+
+h2{
+	font-family:"Lato",sans-serif;
+	font-weight:400;
+	font-size:1.777em;
+}
+
+h3{
+	font-family:"StagSans-Medium",sans-serif;
+	font-size:1.333em;
+}
+
+h4{
+	font-family:"Lato",sans-serif;
+	font-weight:700;
+	font-size:1.333em;
+	text-transform:uppercase;
+}
+
+h5{
+	font-family:"Lato",sans-serif;
+	font-weight:700;
+	font-size:1em;
+	color:#EFEFEF;
+}
+
+.navbar-default{
+	background-color:transparent;
+	border:none;
+	margin-bottom:0;
+}
+
+.navbar{
+  background-image:linear-gradient(to bottom,rgba(255,255,255,.8),rgba(255,255,255,0));
+  background-position:0 0;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color:#333;
+	margin-top:0.667em;
+	margin-bottom:0.444em;
+}
+
+.navbar-brand{
+	padding-right:1.777em;
+}
+
+@media only screen and (max-width:768px) {
+	.navbar-brand{
+		width:100%;
+	}
+	.navbar-brand img{
+		margin:0 auto;
+	}
+}
+
+.navbar-link{
+	font-family:"Lato",sans-serif;
+	font-weight:400;
+	text-transform:uppercase;
+	display:inline-block;
+	margin:1em 0.75em 0 0.75em;
+}
+
+.navbar-link:hover,
+.navbar-link:active{
+	cursor:pointer;
+	font-weight:700;
+	text-decoration:none;
+	color:#38B873!important;
+}
+
+.navbar-default .navbar-text{
+	font-family:"Lato",sans-serif;
+	color:#333;
+	font-weight:400;
+	display:inline-block;
+	margin:1.333em 0.75em 0 0.75em;
+}
+
+.user-img{
+	width:2.369em;
+	height:2.369em;
+	margin:.563em 0.75em 0 0;
+	border:3px solid #38B873;
+}
+
+.user-img:hover{
+	cursor:pointer;
+}
+
+.background{
+	z-index:-1;
+	position:absolute;
+	margin:0;
+}
+
+.content{
+	background:url(../img/ski-lift-bw.jpg);
+	background-position:70% 50%;
+	background-size:cover;
+	padding-bottom:1.777em;
+}
+
+.headline{
+	margin-top:7.478em;
+	padding-bottom:13.288em;
+	text-align:center;
+}
+
+.text-branding h1,
+.text-branding h2{
+	margin:0.178em;
+}
+
+#form-quote{
+	padding:1.777em;
+	background-color:#38B873;
+}
+
+.navbar-form{
+	text-align:center;
+	border:none;
+	box-shadow:none;
+	-webkit-box-shadow:none;
+}
+
+.form-group{
+	padding:1px;
+}
+
+.form-control{
+	height:3.157em;
+	box-shadow:none;
+	border-radius:2px;
+	border:none;
+}
+
+input,
+select{
+	font-family:"Lato",sans-serif;
+	font-size:1em;
+}
+
+button[type="submit"]{
+	font-family:"Lato",sans-serif;
+	font-weight:700;
+	text-transform:uppercase;
+	color:white;
+	background-color:#38B873;
+	border:1px solid white;
+	padding:0 1.333em 0 1.333em;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:active{
+	font-family:"Lato",sans-serif;
+	font-weight:700;
+	text-transform:uppercase;
+	color:#38B873;
+	background-color:white;
+	border:1px solid #38B873;
+}
+
+.container-panels{
+	margin:3.157em 0 3.157em 0;
+	padding:0 1.333em 0 1.333em;
+}
+
+.panel-primary{
+	border:none;
+	text-align:center;
+	margin-bottom:0;
+	box-shadow:none;
+	-webkit-box-shadow:none;
+}
+
+.panel-body{
+	padding:1.333em 4.209em 1.333em 4.209em;
+	border:none;
+}
+
+@media only screen and (max-width:480px) {
+	.panel-body{
+		padding:1.333em 1.333em 1.333em 1.333em;
+		border:none;
+	}
+}
+
+.panel-body p{
+	color:#7F8C8D;
+}
+
+.panel h3{
+	text-align:center;
+}
+
+.container-imgs{
+	padding:4.209em 0 4.209em 0;
+	background-color:#EFEFEF;
+	text-align:center;
+}
+
+hr.imgs-line {
+	border:0;
+	border-top:3px solid #38B873;
+	width:4.209em;
+}
+
+.col-img{
+	position:relative;
+	padding-bottom:1.777em;
+}
+
+.col-img>img:hover,
+.overlay-text:hover{
+	cursor:pointer;
+}
+
+.overlay-text{
+	color:#fff;
+	font-family:"Lato",sans-serif;
+	font-weight:700;
+	font-size:1.777em;
+	text-shadow:1px 2px #333;
+	position:absolute;
+	width:100%;
+	top:48%;
+	left:-7px;
+}
+
+footer{
+	padding:1.777em;
+	background-color:#38B873;
+}
+
+.footer-section{
+	padding:1em 1.777em 1.777em 1.777em;
+}
+
+hr.footer-line{
+	border:0;
+	border-top:3px solid #EFEFEF;
+	width:2.369em;
+}
+
+.footer-nav{
+	list-style-type:none;
+	padding:0;
+}
+
+.footer-nav ul{
+	list-style-type:none;
+	padding-left:0.422em;
+}
+
+.footer-nav>ul>li:before{
+	content:"-";
+	padding-right:0.422em;
+	color:#EFEFEF;
+}
+
+footer a{
+	font-family:"Lato",sans-serif;
+	font-size:1em;
+	color:#EFEFEF;
+}
+
+footer a:hover,
+footer a:active{
+	font-family:"Lato",sans-serif;
+	font-weight:700;
+	text-decoration:none;
+	color:#EFEFEF;
+}
+
+footer p{
+	color:#EFEFEF;
+}
